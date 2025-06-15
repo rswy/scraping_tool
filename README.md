@@ -57,4 +57,4 @@ The script will launch a headless Chrome browser, navigate to Amazon, scrape the
     ```bash
     python analyze.py
     ```
--   The process will go through the `amazon_bestsellers_enriched.json` file and output an analysis summary. Charts will be stored in the data_analysis folder within the root directory.
+    -   The process will go through the `amazon_bestsellers_enriched.json` file and output an analysis summary. Charts will be stored in the data_analysis folder within the root directory.
