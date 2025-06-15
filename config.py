@@ -3,7 +3,7 @@
 BASE_URL = "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics/"
 
 # --- Output ---
-OUTPUT_FILENAME = "amazon_bestsellers_enriched.json"
+OUTPUT_FILENAME = "amazon_bestsellers.json"
 
 
 # --- Scraping Parameters ---
@@ -12,11 +12,10 @@ DEFAULT_PRODUCTS_TO_DETAIL = 100 # How many products to perform a "deep dive" on
 WEBDRIVER_WAIT_TIMEOUT = 20 # Max seconds to wait for an element to appear.
 
 # --- Random Behavior and Delay Timings to reduce rate limiting (in seconds) ---
-
 DELAYS = {
-    "scroll": (2.5, 4.0),           # Wait time between each scroll action.
-    "detail_page": (7.0, 15.0),      # Wait time before scraping a product detail page.
-    "next_list_page": (8.0, 15.0)    # Wait time before loading the next list page.
+    "scroll": (2.2, 4.5),           # Wait time between each scroll action.
+    "detail_page": (6.0, 12.0),      # Wait time before scraping a product detail page.
+    "next_list_page": (7.0, 15.0)    # Wait time before loading the next list page.
 }
 
 
@@ -60,6 +59,3 @@ CHROME_EXPERIMENTAL_OPTIONS = {
     "excludeSwitches": ["enable-automation"],
     "useAutomationExtension": False
 }
-
-
-
