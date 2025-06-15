@@ -50,10 +50,10 @@ The script will launch a headless Chrome browser, navigate to Amazon, scrape the
     ```bash
     python scrape.py
     ```
--   The process will take several minutes to complete as it includes deliberate, randomized delays to avoid being blocked.
--   Upon completion, a file named `amazon_bestsellers_enriched.json` will be created in the project directory.
+    -   The process will take several minutes to complete as it includes deliberate, randomized delays to avoid being blocked.
+    -   Upon completion, a file named `amazon_bestsellers_enriched.json` will be created in the project directory.
 
--   Execute the following command in your terminal: (OPTIONAL)
+-  (OPTIONAL) Execute the following command in your terminal: 
     ```bash
     python analyze.py
     ```
